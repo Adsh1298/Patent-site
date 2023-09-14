@@ -1,0 +1,51 @@
+/* custom css styling */
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+.container{
+    position: relative;
+    top: 10%;
+    width: 100%;
+    display: flex;
+    left: 5%;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.container .mail-form{
+    border-radius: 5px;
+    border-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container form .form-control{
+    height: 43px;
+    background: #000;
+    font-size: 15px;
+}
+.container .mail-form form .form-group .button{
+    font-size: 17px!important;
+    height: 43px;
+    width: 200px;
+    border-radius: 5px;
+    background: #0B5694;
+}
+.container form .textarea{
+    height: 170px;
+    resize: none;
+}
+
+.send {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    width: 214px;
+    height: 48px;
+    left: 200px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
